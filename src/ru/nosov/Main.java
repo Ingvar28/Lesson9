@@ -28,28 +28,8 @@ public class Main {
         doubleArray.printDoubleCharArray
                 (doubleArray.fillDoubleArrayByRandomValue(5, 3));
 
-
-
-
-
     }
 
-    static Random random = new Random();
-
-    public static char[][] test (int m, int n) {
-        char[][] array = new char[m][n];
-        String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-
-
-
-        for (int i = 0; i <array.length ; i++) {
-            for (int j = 0; j < array[i].length; j++) {
-
-                array[i][j] =alphabet.charAt(random.nextInt(array.length)) ;
-            }
-        }
-        return array;
-    }
 
 
 }
